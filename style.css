@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", "san-serift";
+
+    
+}
+
+body{
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+
+
+    
+    
+
+.containerItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 2rem;
+    position: relative;
+ 
+    
+    
+}
+
+.nav{
+    display: flex;
+    gap: 44rem;
+    
+    
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+
+}
+
+
+
+
+.navbarItems ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbarItems ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    
+    
+}
+.navbarItems ul li a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.navbarItems ul li a:hover{
+    color:  hsl(5, 85%, 63%);
+  
+}
+
+
+.header{
+    display: flex;
+    
+    margin-top: 2.5rem;
+    justify-content: space-between;
+ 
+    position: relative;
+    width: 71vw;
+}
+
+
+.header1{
+    flex: 2.5;
+}
+
+
+
+.header1 img{
+    width: 55rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.h1Detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+
+.h1Detail h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.h1Details {
+    
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+.h1Details p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.h1Details button{
+    height: 3.5rem;
+    width: 13rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+    background-color:  hsl(5, 85%, 63%);
+    border: none;
+    cursor: pointer;
+}
+
+.h1Details button:hover{
+    background-color: black;
+}
+
+.header2{
+    
+    flex: 1;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    width: 22rem;
+    position: relative;
+    
+
+    
+    
+}
+
+.header2 h1{
+    color:  hsl(35, 77%, 62%);
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+
+.h2Detail {
+    border-bottom: 1px solid rgb(88, 87, 87);
+    margin-top: 2rem;
+    
+}
+
+.h2Detailyube{
+    margin-top: 2.5rem;
+}
+
+.h2Detailyube h2{
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.h2Detailyube p{
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+
+.h2Detail h2{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.h2Detail h2:hover{
+    color:  hsl(35, 77%, 62%);
+}
+.h2Detailyube h2:hover{
+    color:  hsl(35, 77%, 62%);
+}
+
+.h2Detail p{
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 3rem;
+    padding: 0.1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71vw;
+}
+.footerItems{
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.footerItems img{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.footerDetail{
+    justify-content: space-between;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDetail span{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: grey;
+}
+
+.footerDetail h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.footerDetail h1:hover{
+    color: hsl(5, 85%, 63%) ;
+}
+
+.footerDetail h3{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+}
+
+
